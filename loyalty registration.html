@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrozMart-Loyalty Registration</title>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--reset css for browser-->
+    <link rel="stylesheet" href="reset.css">
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--Custom css link-->
+    <link rel="stylesheet" href="./styles8.css">
+
+
+</head>
+<body>
+    <!--header section starts-->
+
+<header class="header">
+    <a href="./index.html" class="logo"><i class="fa-solid fa-truck-fast"></i>FrozMart</a>
+
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./AboutUs.html">About Us</a>
+        <a href="./categories.html">products</a>
+        <a href="./orders.html">Orders</a>
+        <a href="./loyalty registration.html">Loyalty Registration</a>
+    </nav>
+
+    <section class="icons">
+        <section class="fas fa-bars" id="menu-btn"></section>
+        <section class="fas fa-search" id="search-btn"></section>
+        <section class="fas fa-shopping-cart" id="cart-btn"></section>
+        <section class="fas fa-user" id="login-btn"></section>
+    </section>
+
+    
+<!--header section ends-->
+</header>
+
+<main>
+
+
+
+<section class="form-container">
+        <form action="" method="post">
+            <h2>loyalty registration</h2>
+            <div class="form-content">
+                <div class="input-box">
+                    <label for="name">full name</label>
+                    <input type="text" placeholder="enter full name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="date-of-birth">Date of Birth</label>
+                    <input type="date" placeholder="Enter your date of birth" name="date_of_birth" id="date-of-birth" required>
+                </div>
+                
+                <div class="input-box">
+                    <label for="email">email</label>
+                    <input type="email" placeholder="enter your valid eamil address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">phone number</label>
+                    <input type="tel" placeholder="enter phone number" name="phone" required>
+                </div>
+                <div class="input-box">
+                    <label for="address">street address</label>
+                    <input type="text" placeholder="enter your address " name="address" required>
+                </div>
+                <div class="input-box">
+                    <label for="city">city</label>
+                    <input type="text" placeholder="enter your city" name="city" required>
+                </div>
+                <div class="input-box">
+                    <label for="province">province</label>
+                    <input type="text" placeholder="enter your province" name="province" required>
+                </div>
+                <div class="input-box">
+                    <label for="loyalty-scheme">Choose a Loyalty Scheme</label>
+                    <select id="loyalty-scheme" name="loyalty_scheme">
+                        <option value="none">none</option>
+                        <option value="points-based">Points Based Programs</option>
+                        <option value="cash-back">Cash Back Programs</option>
+                        <option value="discount">Discount Programs</option>
+                    </select>
+                </div>
+                
+                <div class="input-box">
+                    <label for="password">password</label>
+                    <input type="password" placeholder="Enter new password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <label for="confirm-password">confirm password</label>
+                    <input type="password" placeholder="confirm your password" name="confirmPassword" required>
+                </div>    
+                <span class="gender-title">gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">other</label>
+                </div>
+            </div>
+            <div class="alert">
+                <p>by clicking <b>register,</b> you agree to our <a href="#">terms,</a> <a href="#">privacy policy</a> and <a href="#">cookies policy.</a> you may receive SMS notifications from us and can opt out any time.</p>
+            </div>
+            <div class="bbuton-container">
+                <button type="submit">register</button>
+            </div>
+        </form>
+    </section>
+
+
+    <section class="benefits">
+        <h1>benefits provided for each loyalty schemes</h1>
+        <h2>points based programs</h2>
+        <p>customers earn points for every dollar spent. points can be redeemed for discounts, free products, or special rewards.</p>
+        <h2>cash back programs</h2>
+        <p>A percentage of each purchase is returned to the customer as cash or store credit.</p>
+        <h2>Discount Programs</h2>
+        <p>Exclusive discounts on selected products or categories.</p>
+    </section>
+
+</main>
+
+<footer>
+    <!--footer section starts-->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>FrozMart <i class="fa-solid fa-truck-fast"></i></h3>
+            <p class="footer-note"> Embark on a journey of discovery and excellence with our unparalleled offerings. </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +94 77 546 2345 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +94 66 222 9023 </a>
+            <a href="#" class="links"> <i class="fa-sharp fa-solid fa-envelope"></i> FrozMart@gmail.com </a>
+            <a href="#" class="links"> <i class="fa-sharp fa-solid fa-location-dot"></i> matale, sri lanka-21000 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="./index.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="./AboutUs.html" class="links"> <i class="fas fa-arrow-right"></i> About Us</a>
+                <a href="./categories.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="./orders.html" class="links"> <i class="fas fa-arrow-right"></i> Orders </a>
+                <a href="./loyalty registration.html" class="links"> <i class="fas fa-arrow-right"></i> Loyalty Registration </a>
+            </div>
+                <div class="box">
+                    <h3>newsletter</h3>
+                    <p>subscribe for latest updates</p>
+                    <input type="email" placeholder="your email" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </div>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> &copy;FrozMart designers </span> | all rights reserved </div>
+
+</section>
+
+<!--footer section ends-->
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--custom js file link-->
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
